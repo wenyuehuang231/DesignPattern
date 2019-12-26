@@ -1,8 +1,8 @@
-package simpleFactory;
+package SimpleFactory;
 
-import simpleFactory.entity.JavaCourse;
-import simpleFactory.factory.CourseFactory;
-import simpleFactory.infer.Course;
+import SimpleFactory.entity.JavaCourse;
+import SimpleFactory.factory.CourseFactory;
+import SimpleFactory.infer.Course;
 
 /**
  * @author : Mr.Huang

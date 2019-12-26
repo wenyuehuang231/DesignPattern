@@ -1,6 +1,6 @@
-package simpleFactory.entity;
+package SimpleFactory.entity;
 
-import simpleFactory.infer.Course;
+import SimpleFactory.infer.Course;
 
 /**
  * @author : Mr.Huang

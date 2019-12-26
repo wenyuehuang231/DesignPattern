@@ -1,4 +1,4 @@
-package simpleFactory.infer;
+package SimpleFactory.infer;
 
 /**
  * @author : Mr.Huang
