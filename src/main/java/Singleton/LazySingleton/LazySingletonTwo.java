@@ -6,9 +6,14 @@ package Singleton.LazySingleton;
  */
 public class LazySingletonTwo {
     private static LazySingletonTwo lazySingletonOne = null;
-    private LazySingletonTwo(){}
+
+    private LazySingletonTwo(){
+
+    }
+
     public static LazySingletonTwo getInstance() {
         if (null == lazySingletonOne) {
+            //在方法内部加锁，提高性能
             synchronized (LazySingletonTwo.class) {
                 if (null != lazySingletonOne) {
                     lazySingletonOne = new LazySingletonTwo();
